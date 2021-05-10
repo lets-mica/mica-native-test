@@ -1,7 +1,6 @@
 # mica native 测试
 
 ## 相关链接
-* `示例项目`：[https://github.com/lets-mica/mica-example](https://github.com/lets-mica/mica-example)
 * mica 源码 Github：[https://github.com/lets-mica](https://github.com/lets-mica)
 * mica 源码 Gitee（码云）：[https://gitee.com/596392912/mica](https://gitee.com/596392912/mica)
 * mica 性能压测：[https://github.com/lets-mica/mica-jmh](https://github.com/lets-mica/mica-jmh)
