@@ -49,12 +49,6 @@
             <version>${spring-native.version}</version>
             <scope>provided</scope>
         </dependency>
-        <dependency>
-            <groupId>org.graalvm.nativeimage</groupId>
-            <artifactId>graal-hotspot-library</artifactId>
-            <version>21.1.0</version>
-            <scope>provided</scope>
-        </dependency>
     </dependencies>
 
     <build>
