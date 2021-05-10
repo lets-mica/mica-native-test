@@ -22,9 +22,4 @@ public class Ip2RegionController {
        return ip2regionSearcher.memorySearch(WebUtil.getIP());
     }
 
-    @GetMapping("ip2region/test")
-    public String test() {
-        return "hello world!";
-    }
-
 }
