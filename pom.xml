@@ -47,7 +47,6 @@
             <groupId>org.springframework.experimental</groupId>
             <artifactId>spring-native</artifactId>
             <version>${spring-native.version}</version>
-            <scope>provided</scope>
         </dependency>
     </dependencies>
 
