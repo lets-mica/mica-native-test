@@ -29,19 +29,19 @@
             <groupId>net.dreamlu</groupId>
             <artifactId>mica-ip2region</artifactId>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>net.dreamlu</groupId>-->
-<!--            <artifactId>mica-captcha</artifactId>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>net.dreamlu</groupId>-->
-<!--            <artifactId>mica-caffeine</artifactId>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>javax.cache</groupId>-->
-<!--            <artifactId>cache-api</artifactId>-->
-<!--            <version>1.1.1</version>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>net.dreamlu</groupId>
+            <artifactId>mica-captcha</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>net.dreamlu</groupId>
+            <artifactId>mica-caffeine</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>javax.cache</groupId>
+            <artifactId>cache-api</artifactId>
+            <version>1.1.1</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -67,9 +67,9 @@
 
     <repositories>
         <repository>
-            <id>spring-releases</id>
-            <name>Spring Releases</name>
-            <url>https://repo.spring.io/release</url>
+            <id>spring-milestones</id>
+            <name>Spring Milestones</name>
+            <url>https://repo.spring.io/milestone</url>
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
