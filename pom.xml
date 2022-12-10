@@ -35,7 +35,7 @@
         </dependency>
         <dependency>
             <groupId>net.dreamlu</groupId>
-            <artifactId>mica-caffeine</artifactId>
+            <artifactId>mica-metrics</artifactId>
         </dependency>
         <dependency>
             <groupId>javax.cache</groupId>
@@ -46,6 +46,10 @@
 
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.graalvm.buildtools</groupId>
+                <artifactId>native-maven-plugin</artifactId>
+            </plugin>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
